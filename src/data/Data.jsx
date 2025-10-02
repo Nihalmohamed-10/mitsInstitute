@@ -72,7 +72,7 @@ export const data = {
     { name: "Certified in office assistant", key: "course3-7", image: course3_7Img, description: "Tree that gives mangoes." },
     { name: "Diploma in computer application DCA", key: "course3-8", image: course3_8Img, description: "Tree that gives mangoes." },
     { name: "Diploma in assistant fashion designer", key: "course3-9", image: course3_9Img, description: "Tree that gives mangoes." },
-    { name: "Certified in self employed Tailor (cset)", key: "course3-10", image: course3_10Img, description: "Tree that gives mangoes." },
+    { name: "Certified in self employed Tailor (CSET)", key: "course3-10", image: course3_10Img, description: "Tree that gives mangoes." },
     { name: "Certified in hand embroidery (CHE)", key: "course3-11", image: course3_11Img, description: "Tree that gives mangoes." },
     { name: "Certified in desktop publishing (DTP)", key: "course3-12", image: course3_12Img, description: "Tree that gives mangoes." },
     { name: "Certified in spoken English and communication skill course", key: "course3-13", image: course3_13Img, description: "Tree that gives mangoes." },
