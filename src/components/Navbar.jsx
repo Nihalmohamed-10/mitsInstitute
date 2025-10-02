@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/images/ERTQA Logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
