@@ -8,7 +8,7 @@ import hrImg from "../assets/images/HrManagement.webp";
 import teacherImg from "../assets/images/TeacherTraining.png";
 import FashionImg from "../assets/images/FashDes.avif";
 import graphicImg from "../assets/images/graphic.avif";
-import lapTechImg from "../assets/images/labTech.avif";
+import lapTechImg from "../assets/images/LabTech.avif";
 import mobTechImg from "../assets/images/mobTech.avif";
 import secTechImg from "../assets/images/securityTech.avif";
 
