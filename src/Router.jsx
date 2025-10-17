@@ -7,7 +7,7 @@ import DetailPage from "./pages/DetailPage.jsx";
 export default function Router() {
   return (
     <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/category/:type" element={<CategoryPage />} />
