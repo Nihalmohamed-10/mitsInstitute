@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
+import wall1 from "../assets/images/wallp1.jpg"
+import wall2 from "../assets/images/wallp2.jpg"
+import wall3 from "../assets/images/wallp3.jpg"
+
 
 const images = [
-  "https://picsum.photos/id/1011/1600/900",
-  "https://picsum.photos/id/1015/1600/900",
-  "https://picsum.photos/id/1016/1600/900",
+  wall1, wall2, wall3
 ];
 
 function Spotlight() {

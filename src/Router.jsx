@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import CategoryPage from "./pages/CategoryPage.jsx";
 import DetailPage from "./pages/DetailPage.jsx";
+import Footer from "./components/Footer.jsx";
 
 export default function Router() {
   return (
@@ -13,6 +14,7 @@ export default function Router() {
         <Route path="/category/:type" element={<CategoryPage />} />
         <Route path="/category/:type/:item" element={<DetailPage />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

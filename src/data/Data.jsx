@@ -33,7 +33,6 @@ import course3_11Img from "../assets/images/course3-11.avif";
 import course3_12Img from "../assets/images/course3-12.avif";
 import course3_13Img from "../assets/images/course3-13.avif";
 
-
 // Categories
 export const categories = [
   { name: "Professional Courses", type: "pro", image: profCourseImg },
@@ -44,41 +43,182 @@ export const categories = [
 // Data
 export const data = {
   pro: [
-    { name: "Diploma in Corporate Accounts Management with SAP", key: "prof1", image: corpAcnts, description: "Learn corporate accounts management with SAP." },
-    { name: "Diploma in Logistics and Supply Chain Management with SAP", key: "prof2", image: logisticImg, description: "Logistics and supply chain management with SAP." },
-    { name: "Diploma in HR Management with SAP", key: "prof3", image: hrImg, description: "HR management course with SAP." },
-    { name: "Certified in Professional Teachers Training", key: "prof4", image: teacherImg, description: "Become a certified professional teacher." },
-    { name: "Certified in Fashion Designing and Garment Technology", key: "prof5", image: FashionImg, description: "Fashion designing and garment technology." },
-    { name: "Certified in Graphics and Creative Designing", key: "prof6", image: graphicImg, description: "Learn graphics and creative designing." },
-    { name: "Certified in Laptop Chip Level Technician", key: "prof7", image: lapTechImg, description: "Laptop chip level technician training." },
-    { name: "Certified in Mobile Phone Technician", key: "prof8", image: mobTechImg, description: "Mobile phone technician course." },
-    { name: "Certified in Security Systems and Automation Technician", key: "prof9", image: secTechImg, description: "Security systems and automation training." },
+    {
+      name: "Diploma in Corporate Accounts Management with SAP",
+      key: "prof1",
+      image: corpAcnts,
+      description: "Learn corporate accounts management with SAP.",
+      duration: "6 months",
+      fees: "20000 Rs"
+    },
+    {
+      name: "Diploma in Logistics and Supply Chain Management with SAP",
+      key: "prof2",
+      image: logisticImg,
+      description: "Logistics and supply chain management with SAP.",
+    },
+    {
+      name: "Diploma in HR Management with SAP",
+      key: "prof3",
+      image: hrImg,
+      description: "HR management course with SAP.",
+    },
+    {
+      name: "Certified in Professional Teachers Training",
+      key: "prof4",
+      image: teacherImg,
+      description: "Become a certified professional teacher.",
+    },
+    {
+      name: "Certified in Fashion Designing and Garment Technology",
+      key: "prof5",
+      image: FashionImg,
+      description: "Fashion designing and garment technology.",
+    },
+    {
+      name: "Certified in Graphics and Creative Designing",
+      key: "prof6",
+      image: graphicImg,
+      description: "Learn graphics and creative designing.",
+    },
+    {
+      name: "Certified in Laptop Chip Level Technician",
+      key: "prof7",
+      image: lapTechImg,
+      description: "Laptop chip level technician training.",
+    },
+    {
+      name: "Certified in Mobile Phone Technician",
+      key: "prof8",
+      image: mobTechImg,
+      description: "Mobile phone technician course.",
+    },
+    {
+      name: "Certified in Security Systems and Automation Technician",
+      key: "prof9",
+      image: secTechImg,
+      description: "Security systems and automation training.",
+    },
   ],
   short: [
-    { name: "Master in corporate accounting + GST E-filing with working experience", key: "short1", image: gstImg, description: "Learn corporate accounts management with SAP." },
-    { name: "Pre primary teachers training course (PPTTC)", key: "short2", image: prePrimaryImg, description: "Logistics and supply chain management with SAP." },
-    { name: "Certified in professional office administration", key: "short3", image: officeAdmImg, description: "HR management course with SAP." },
-    { name: "Certificate in professional hospital administration", key: "short4", image: hospitalImg, description: "Become a certified professional teacher." },
-    { name: "Post graduate diploma in computer application", key: "short5", image: diplomaCompImg, description: "Fashion designing and garment technology." },
-    { name: "Certified in Mondissorry teacher training", key: "short6", image: mondissorryImg, description: "Learn graphics and creative designing." },
+    {
+      name: "Master in corporate accounting + GST E-filing with working experience",
+      key: "short1",
+      image: gstImg,
+      description: "Learn corporate accounts management with SAP.",
+    },
+    {
+      name: "Pre primary teachers training course (PPTTC)",
+      key: "short2",
+      image: prePrimaryImg,
+      description: "Logistics and supply chain management with SAP.",
+    },
+    {
+      name: "Certified in professional office administration",
+      key: "short3",
+      image: officeAdmImg,
+      description: "HR management course with SAP.",
+    },
+    {
+      name: "Certificate in professional hospital administration",
+      key: "short4",
+      image: hospitalImg,
+      description: "Become a certified professional teacher.",
+    },
+    {
+      name: "Post graduate diploma in computer application",
+      key: "short5",
+      image: diplomaCompImg,
+      description: "Fashion designing and garment technology.",
+    },
+    {
+      name: "Certified in Mondissorry teacher training",
+      key: "short6",
+      image: mondissorryImg,
+      description: "Learn graphics and creative designing.",
+    },
   ],
   other: [
-    { name: "Certified professional accounting + GST (CPA)", key: "course3-1", image: course3_1Img, description: "Tree that gives mangoes." },
-    { name: "Certified in accounting + GST and office administration (DAC)", key: "course3-2", image: course3_2Img, description: "Tree that gives mangoes." },
-    { name: "Certified in professional office administration", key: "course3-3", image: course3_3Img, description: "Tree that gives mangoes." },
-    { name: "Certified in office assistant and data entry operator", key: "course3-4", image: course3_4Img, description: "Tree that gives mangoes." },
-    { name: "Certified in data entry operator", key: "course3-5", image: course3_5Img, description: "Tree that gives mangoes." },
-    { name: "Certified in tally professional", key: "course3-6", image: course3_6Img, description: "Tree that gives mangoes." },
-    { name: "Certified in office assistant", key: "course3-7", image: course3_7Img, description: "Tree that gives mangoes." },
-    { name: "Diploma in computer application DCA", key: "course3-8", image: course3_8Img, description: "Tree that gives mangoes." },
-    { name: "Diploma in assistant fashion designer", key: "course3-9", image: course3_9Img, description: "Tree that gives mangoes." },
-    { name: "Certified in self employed Tailor (CSET)", key: "course3-10", image: course3_10Img, description: "Tree that gives mangoes." },
-    { name: "Certified in hand embroidery (CHE)", key: "course3-11", image: course3_11Img, description: "Tree that gives mangoes." },
-    { name: "Certified in desktop publishing (DTP)", key: "course3-12", image: course3_12Img, description: "Tree that gives mangoes." },
-    { name: "Certified in spoken English and communication skill course", key: "course3-13", image: course3_13Img, description: "Tree that gives mangoes." },
+    {
+      name: "Certified professional accounting + GST (CPA)",
+      key: "course3-1",
+      image: course3_1Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in accounting + GST and office administration (DAC)",
+      key: "course3-2",
+      image: course3_2Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in professional office administration",
+      key: "course3-3",
+      image: course3_3Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in office assistant and data entry operator",
+      key: "course3-4",
+      image: course3_4Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in data entry operator",
+      key: "course3-5",
+      image: course3_5Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in tally professional",
+      key: "course3-6",
+      image: course3_6Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in office assistant",
+      key: "course3-7",
+      image: course3_7Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Diploma in computer application DCA",
+      key: "course3-8",
+      image: course3_8Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Diploma in assistant fashion designer",
+      key: "course3-9",
+      image: course3_9Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in self employed Tailor (CSET)",
+      key: "course3-10",
+      image: course3_10Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in hand embroidery (CHE)",
+      key: "course3-11",
+      image: course3_11Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in desktop publishing (DTP)",
+      key: "course3-12",
+      image: course3_12Img,
+      description: "Tree that gives mangoes.",
+    },
+    {
+      name: "Certified in spoken English and communication skill course",
+      key: "course3-13",
+      image: course3_13Img,
+      description: "Tree that gives mangoes.",
+    },
   ],
 };
-
 
 // import profCourseImg from "../assets/images/profCourse.avif";
 // import shortCourseImg from "../assets/images/shortCourse.avif";
@@ -93,9 +233,6 @@ export const data = {
 // import lapTechImg from "../assets/images/labTech.avif";
 // import mobTechImg from "../assets/images/mobTech.avif";
 // import secTechImg from "../assets/images/securityTech.avif";
-
-
-
 
 // import carrotImg from "../assets/images/carrot.avif";
 // import potatoImg from "../assets/images/potato.avif";
