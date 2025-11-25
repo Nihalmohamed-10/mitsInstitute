@@ -1,8 +1,12 @@
 import { createClient } from "contentful";
 
 const client = createClient({
-  space: "u2z5sd6vj5qg", 
-  accessToken: "sSsRrNk1kmgAlDDNqCD02mjceHBm-wqxuYautKoijVc", 
+  // space: "u2z5sd6vj5qg",
+   
+   space: "qyfmejjg1n7l",
+  // accessToken: "sSsRrNk1kmgAlDDNqCD02mjceHBm-wqxuYautKoijVc",
+  accessToken: "bet7I5MfOT--6lR5lyU1LE-mXFintTXwTyvbT9eI71w",
+   
   environment: "master",
 });
 

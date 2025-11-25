@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import wall1 from "../assets/images/wallp1.jpg"
-import wall2 from "../assets/images/wallp2.jpg"
-import wall3 from "../assets/images/wallp3.jpg"
+import wall1 from "../assets/images/course3-4.avif"
+import wall2 from "../assets/images/course3-4.avif"
+import wall3 from "../assets/images/course3-4.avif"
 
 
 const images = [
@@ -20,7 +20,7 @@ function Spotlight() {
   }, []);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section id="home" className="relative w-full h-screen overflow-hidden">
       {/* Background Images */}
       {images.map((img, index) => (
         <div

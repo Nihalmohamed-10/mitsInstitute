@@ -3,7 +3,7 @@ import logo from "../assets/images/ERTQA Logo.png"; // 👈 replace with your ow
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-900 to-black text-gray-300 pt-16 pb-8 px-6 md:px-20">
+    <footer id="contact" className="bg-gradient-to-b from-gray-900 to-black text-gray-300 pt-16 pb-8 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col items-center text-center space-y-8">
 
         {/* Logo & Description */}

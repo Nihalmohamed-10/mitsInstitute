@@ -3,7 +3,7 @@ import { categories } from "../data/Data";
 
 export default function CategoriesSection() {
   return (
-    <section className="py-30 px-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="courses" className="py-30 px-20 bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="container mx-auto">
         <h2 className="text-4xl font-extrabold text-center mb-14 text-gray-800">
           Courses

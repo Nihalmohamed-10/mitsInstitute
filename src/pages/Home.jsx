@@ -10,8 +10,8 @@ function Home() {
       <Spotlight />
       <About />
       <CoursesCategories />
-      <h1 className="text-3xl font-bold text-center mt-6">Website Gallery</h1>
-      <WebImageGallery />
+      {/* <h1 className="text-3xl font-bold text-center mt-6">Website Gallery</h1> */}
+      {/* <WebImageGallery /> */}
     </div>
   );
 }
