@@ -16,7 +16,7 @@ export default function Navbar() {
     { name: "Home", id: "home" },            // Spotlight
     { name: "About", id: "about" },
     { name: "Courses", id: "courses" },
-    { name: "Admissions", id: "admissions" },
+    // { name: "Admissions", id: "admissions" },
     { name: "Contact", id: "contact" },      // Footer
   ];
 

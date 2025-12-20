@@ -3,26 +3,49 @@ import { categories } from "../data/Data";
 
 export default function CategoriesSection() {
   return (
-    <section id="courses" className="py-30 px-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section
+      id="courses"
+      className="py-16 md:py-24 px-5 sm:px-10 lg:px-20 bg-gradient-to-br from-gray-50 to-gray-100"
+    >
       <div className="container mx-auto">
-        <h2 className="text-4xl font-extrabold text-center mb-14 text-gray-800">
+        
+        {/* Heading */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-center mb-10 md:mb-14 text-gray-800">
           Courses
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        {/* Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
           {categories.map((cat) => (
             <Link
               key={cat.type}
               to={`/category/${cat.type}`}
-              className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2"
+              className="
+                group relative rounded-2xl overflow-hidden 
+                shadow-md hover:shadow-2xl 
+                transition-transform duration-300 
+                md:hover:-translate-y-2
+              "
             >
+              {/* Image */}
               <img
                 src={cat.image}
                 alt={cat.name}
-                className="h-104 w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="
+                  w-full 
+                  h-56 sm:h-64 md:h-72 lg:h-80
+                  object-cover 
+                  transition-transform duration-500 
+                  md:group-hover:scale-110
+                "
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 group-hover:opacity-80 transition"></div>
-              <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-center">
-                <h3 className="text-2xl font-bold text-white drop-shadow-lg">
+
+              {/* Overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+
+              {/* Text */}
+              <div className="absolute inset-x-0 bottom-5 text-center px-3">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white drop-shadow-lg">
                   {cat.name}
                 </h3>
               </div>
@@ -33,6 +56,7 @@ export default function CategoriesSection() {
     </section>
   );
 }
+
 
 // import { Link } from "react-router-dom";
 // import { categories } from "../data/Data";
